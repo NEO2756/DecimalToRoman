@@ -7,7 +7,7 @@ function convertToRoman(num) {
 
 
     var q = Math.floor(num / roman[i]);
-   // If q > 1, num has that many keys
+   // If q >= 1, num has that many keys
    //if q == 0, num does not contain this roman 
     num -= q * roman[i];
     //Add the number of romans, q times.
