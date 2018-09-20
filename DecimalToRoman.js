@@ -11,10 +11,10 @@ function convertToRoman(num) {
    //if q == 0, num does not contain this roman 
     num -= q * roman[i];
     //Add the number of romans, q times.
-    str += i.repeat(q);
+    output += i.repeat(q);
   }
 
-  return str;
+  return output;
 }
 
 console.log(convertToRoman(1954));
